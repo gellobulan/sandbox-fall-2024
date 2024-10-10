@@ -22,4 +22,3 @@ public class Apple extends Fruit implements Comparable<Fruit> {
         return Integer.compare(this.size, fruit.getSize());
     }
 }
-
